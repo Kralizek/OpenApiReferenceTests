@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <OpenApiReference Include="..\..\schema\test.json">
-      <Options>/OperationGenerationMode:SingleClientFromOperationId /GenerateClientInterfaces:true /InjectHttpClient:true /UseBaseUrl:false /ExceptionClass:AlmaSoftException</Options>
+      <Options>/OperationGenerationMode:SingleClientFromOperationId /GenerateClientInterfaces:true /InjectHttpClient:true /UseBaseUrl:false /ExceptionClass:WebException</Options>
       <CodeGenerator>NSwagCSharp</CodeGenerator>
       <Namespace>TestAPI</Namespace>
       <ClassName>TestClient</ClassName>
